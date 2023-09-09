@@ -5,8 +5,40 @@
 
   </head>
   <body> 
+    <div>
+      <h2>Habit Tracker</h2>
+      <form class = "add habit"> 
+        input
+          class="habit"
+          type="text"
+          name="habit"
+          placeholder="Enter A Habit"
+          required
+        />
+        <input
+          type="number"
+          name="reps"
+          placeholder="How often would you like to repeat this habit?"
+          min="1"
+          required
+        />
+        <div class="frequency">
+          <label for="timeframe">Frequency: </label>
+          <select name="timeframe" id="timeframe">
+            <option value="Daily">Daily</option>
+            <option value="Weekly">Weekly</option>
+            <option value="Monthly">Monthly</option>
+          </select>
+        </div>
+        <input type="submit" value="+ Add Habit" />
+      </form>
+
+
+    </div>
+  </body>
+</html>
+
 
 
 
     
-  </body>
