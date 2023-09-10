@@ -5,9 +5,10 @@
       /* Add this CSS to your existing styles.css */
 
 table {
-    width: 950px;
+    width: 500px;
     border-collapse: collapse;
     margin-top: 20px;
+    
 }
 
 th, td {
@@ -38,21 +39,44 @@ input[type="checkbox"] {
     display: flex;
     justify-content: center;
     align-items: center;
+    -webkit-text-fill-color: white;
+    z-index: 2;
 }
 
 #habitForm{
     margin-top: 2rem;
     margin-left:20rem;
     margin-right:20rem;
+    z-index: 2;
+    
 }
 
 #habitTable{
     margin-left:20rem;
     margin-right:20rem;
+    z-index: 2;
 }
 
 .title{
     margin-top:2rem;
+    margin-left:11.5rem;
+    -webkit-text-fill-color: white;
+    z-index: 2;
 }
+
+
+body {
+    position:absolute;
+background-color:#1e1e1e;
+height:1280px;
+width:1620px;
+padding:0px;
+  }
+
+  .subtitle{
+    -webkit-text-fill-color: white;
+    margin-left:15rem;
+    z-index: 2;
+  }
 
 
