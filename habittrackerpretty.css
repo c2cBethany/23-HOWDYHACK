@@ -8,11 +8,12 @@ table {
     width: 500px;
     border-collapse: collapse;
     margin-top: 20px;
+    line-height: 15px;
     
 }
 
 th, td {
-    border: 1px solid #ddd;
+    border: 1px solid #dddddd;
     padding: 8px;
     text-align: center;
 }
@@ -45,21 +46,27 @@ input[type="checkbox"] {
 
 #habitForm{
     margin-top: 2rem;
-    margin-left:20rem;
+    margin-left:10rem;
     margin-right:20rem;
+    width: 500px;
     z-index: 2;
     
 }
+#habitFrequency{
+    width: 200px;
+    height: 40px;
+}
 
 #habitTable{
-    margin-left:20rem;
+    margin-left:10rem;
     margin-right:20rem;
     z-index: 2;
+    font-size: 12px;
 }
 
 .title{
     margin-top:2rem;
-    margin-left:11.5rem;
+    margin-left:-5rem;
     -webkit-text-fill-color: white;
     z-index: 2;
 }
@@ -79,4 +86,28 @@ padding:0px;
     z-index: 2;
   }
 
+  #habitName{
+    height: 30px;
+  }
 
+  
+.select-row {
+    display: flex;
+    gap: 8px;
+}
+
+.label{
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.607);
+}
+
+.rectangle6
+{
+background-color:#330000;
+height:228px;
+width:275px;
+border-radius:50px;
+position: absolute;
+right: 500px;
+bottom:900px;
+
+}

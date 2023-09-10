@@ -13,7 +13,7 @@
         <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
           <div class="navbar-brand">
             <a class="navbar-item">
-              Habits Howbits
+              Howbits
             </a>
         
             <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -79,8 +79,9 @@
       <div id="rectangle1" class="rectangle1" style="position: absolute; margin-left: 250px; top:0px;" > -->
 
     </div>
+    <div id="rectangle6" class="rectangle6">
+    </div>
 
-ss
     <form id="habitForm">
       <div class="field">
         <label class="label">Habit Name</label>
@@ -91,20 +92,22 @@ ss
       <div class="field">
         <label class="label">Frequency</label>
         <div class="control">
-          <div class="select">
+          <div class="select-row">
             <select id="habitFrequency">
               <option value="daily">Daily</option>
               <option value="weekly">Weekly</option>
               <option value="monthly">Monthly</option>
               <option value="yearly">Yearly</option>
             </select>
+            <div class="control">
+              <button onclick = "hhh()" class="button is-primary is-rounded" type="submit">Add Habit
+              </button>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="control">
-        <button onclick = "hhh()" class="button is-primary is-rounded" type="submit">Add Habit</button>
-      </div>
+      
     </form>
     </div>
     </div>
@@ -127,7 +130,9 @@ ss
     </table>
 
     <script src="habittable.js"></script>
-      
-    </script>
+    
+
+
+    
   </body>
 </html>
