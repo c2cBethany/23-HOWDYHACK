@@ -41,6 +41,7 @@ input[type="checkbox"] {
 }
 
 #habitForm{
+    margin-top: 2rem;
     margin-left:20rem;
     margin-right:20rem;
 }
@@ -49,3 +50,9 @@ input[type="checkbox"] {
     margin-left:20rem;
     margin-right:20rem;
 }
+
+.title{
+    margin-top:2rem;
+}
+
+
