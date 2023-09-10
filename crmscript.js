@@ -7,10 +7,10 @@ document.addEventListener("DOMContentLoaded", () => {
         // Clear the content and load the "Add Client" form
         content.innerHTML = `
             <form id="add-client-form">
-                <label for="clientName">Client Name:</label>
+                <label for="clientName" id ="label1">Client Name:</label>
                 <input type="text" id="clientName" class="input" required>
                 <br>
-                <label for="contactEmail">Contact Email:</label>
+                <label for="contactEmail" id ="label2">Contact Email:</label>
                 <input type="email" id="contactEmail" class="input" required>
                 <br>
                 <button type="submit" class="button" id="submitButton">Save</button>
