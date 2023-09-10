@@ -46,7 +46,7 @@ header {
 
 .content {
     flex: 3;
-    padding: 20px;
+    padding: 1rem;
     background-color: #fff;
 }
 
@@ -75,7 +75,6 @@ margin: 1rem;
 
 #contactEmail{
     margin:1rem;
-    color: #fff;
 }
 
 #submitButton{

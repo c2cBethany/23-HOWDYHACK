@@ -46,9 +46,6 @@ const habitDisplay = async () => {
   }
 };
 
-const handleCheckBox = async () => {
-  
-}
 
 // Call habitDisplay when the page loads
 window.onload = () => {
