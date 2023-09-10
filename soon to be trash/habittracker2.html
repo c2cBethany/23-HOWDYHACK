@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="habittrackerpretty.css">
+    
+  </head>
+  <body>
+      <div id="navbar">
+        <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+          <div class="navbar-brand">
+            <a class="navbar-item">
+              Howbits
+            </a>
+        
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+          </div>
+          <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+              <a href = "index.html" class="navbar-item">
+                Home
+              </a>
+        
+              <a class="navbar-item">
+                Progress
+              </a>
+    
+              <a href = "habittracker2.html" class="navbar-item">
+                Habits
+              </a>
+              <a href = "CRM.html" class="navbar-item">
+                CRM
+              </a>
+        
+              <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                  More
+                </a>
+        
+                <div class="navbar-dropdown">
+                  <a class="navbar-item">
+                    About
+                  </a>
+                  <a class="navbar-item">
+                    Settings
+                  </a>
+                  <a class="navbar-item">
+                    Contact
+                  </a>
+                  <hr class="navbar-divider">
+                  <a class="navbar-item">
+                    Report an issue
+                  </a>
+                </div>
+              </div>
+            </div>
+        </nav>
+      </div>
+
+    <div class="container">
+      <h1 class="title">
+        Habit Tracker
+      </h1>
+      <!-- <div id="rectangle3" style="position: absolute" class="rectangle3">
+
+      <div id="rectangle2" class="rectangle2">
+      </div>
+      <p class="subtitle">
+        Better every day with <strong>Howdy Habits</strong>!
+      </p>
+      <div name="Rectangle 6" id="rectangle6" style="background-color: rgb(51, 0, 0); height: 328px; width: 375px; border-radius: 50px; position: absolute; margin-left: 150px; top:170px;">
+      <div id="rectangle1" class="rectangle1" style="position: absolute; margin-left: 250px; top:0px;" > -->
+
+    </div>
+    <div id="rectangle6" class="rectangle6">
+      <p class="title">Habit Streak</p>
+    </div>
+
+    <form id="habitForm">
+      <div class="field">
+        <label class="label">Habit Name</label>
+        <div class="control">
+          <input class="input" type="text" placeholder="Enter Habit Name" id="habitName">
+        </div>
+      </div>
+      <div class="field">
+        <label class="label">Frequency</label>
+        <div class="control">
+          <div class="select-row">
+            <select id="habitFrequency">
+              <option value="daily">Daily</option>
+              <option value="weekly">Weekly</option>
+              <option value="monthly">Monthly</option>
+              <option value="yearly">Yearly</option>
+            </select>
+            <div class="control">
+              <button onclick = "hhh()" class="button is-primary is-rounded" type="submit">Add Habit
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+    </form>
+    </div>
+    </div>
+    </div>
+    
+
+    <!-- Your table structure -->
+    <table class="table" id="habitTable">
+      <thead>
+        <tr>
+          <th>Habit Name</th>
+          <th>Frequency</th>
+          <th>Done?</th>
+          <th>Date</th>
+        </tr>
+      </thead>
+      <tbody id="habitTableBody">
+        <!-- Data will be populated here -->
+      </tbody>
+    </table>
+
+    <script src="frontend.js"></script>
+    
+
+
+    
+  </body>
+</html>

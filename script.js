@@ -58,11 +58,12 @@ app.post("/hello", async (req, res) => {
 });
 
 app.get("/getdata", async (req, res) => {
-  console.log("GET endpoint hit!");
+  console.log("hit");
   await db.read();
   const { habit } = db.data;
   res.send(habit);
 });
+
 // Everytime we run the server, it'll do the stuff inside.
 app.listen(port, () => {
   console.log(`Habits page listening on port ${port}`);
