@@ -8,6 +8,5 @@ document.onreadystatechange = () => {
           container.classList.toggle('closed');
         });
       });
-       
     }
   };

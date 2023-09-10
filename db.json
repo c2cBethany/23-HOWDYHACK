@@ -1,0 +1,40 @@
+{
+  "habit": [
+    {
+      "name": "Meditate.",
+      "frequency": "daily",
+      "done": false,
+      "completed": false
+    },
+    {
+      "name": "Read 30 pages.",
+      "frequency": "daily",
+      "done": false,
+      "completed": false
+    },
+    {
+      "name": "rtests",
+      "frequency": "daily",
+      "done": false,
+      "completed": false
+    },
+    {
+      "name": "test",
+      "frequency": "daily",
+      "done": false,
+      "completed": false
+    },
+    {
+      "name": "sdfsfef",
+      "frequency": "daily",
+      "done": false,
+      "completed": false
+    },
+    {
+      "name": "ugygyuiohiihojio",
+      "frequency": "daily",
+      "done": false,
+      "completed": false
+    }
+  ]
+}
