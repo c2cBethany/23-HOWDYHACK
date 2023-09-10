@@ -1,0 +1,51 @@
+
+      .hidden {
+        display: none;
+      }
+      /* Add this CSS to your existing styles.css */
+
+table {
+    width: 950px;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+    /* Adjust the width and center the text */
+    width: 100px; /* You can change the width to your desired size */
+    margin: 0 auto; /* Center the text within the cell */
+}
+
+td:last-child {
+    text-align: center;
+}
+
+/* Style checkboxes for completion */
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+/* Center the table within the habits-list */
+.habits-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#habitForm{
+    margin-left:20rem;
+    margin-right:20rem;
+}
+
+#habitTable{
+    margin-left:20rem;
+    margin-right:20rem;
+}
