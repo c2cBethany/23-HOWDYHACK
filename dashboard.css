@@ -52,8 +52,8 @@ border-color: black;
 }
 
 #sidebar-close-button{
-  width: 87rem;
-  padding: 1rem;
+  width: 91rem;
+  padding: 2rem;
 }
 
 #number-of-habits{
@@ -85,3 +85,6 @@ html{
 #sidebar-all{
   z-index: 9;
 }
+
+
+

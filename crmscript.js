@@ -39,8 +39,4 @@ document.addEventListener("DOMContentLoaded", () => {
             content.innerHTML += "<p>No clients found.</p>";
         }, 1000);
     });
-
-    
-
-
 });
