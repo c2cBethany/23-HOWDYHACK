@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="crmstyle.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-    <link href="dashboard.css" rel="stylesheet">
     <title>Client CRM</title>
 </head>
 <body>
@@ -64,22 +63,19 @@
             </div>
         </nav>
       </div>
-    <header>
-        <h1>Client CRM</h1>
-    </header>
-    <div class="container">
-        <div class="sidebar">
-            <h2>Menu</h2>
-            <ul>
-                <li><a href="#" id="add-client-link">Add Client</a></li>
-                <li><a href="#" id="view-clients-link">View Clients</a></li>
-              
-            </ul>
+
+      <div class="card" id="crm-card">
+        <div class="card-content">
+          <div id="content" class="content">
+            
+          </div>
         </div>
-        <div class="content" id="content">
-            <!-- Content will be loaded here -->
-        </div>
-    </div>
+        <footer class="card-footer">
+          <a href="#" id="add-client-link">Add Client</a>
+          <a href="#" id="view-clients-link">View Clients</a>
+          <a href="#" id="remove-clients-link">Remove Client</a>
+        </footer>
+      </div>
     <script src="crmscript.js"></script>
 </body>
 </html>

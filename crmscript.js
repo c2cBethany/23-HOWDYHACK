@@ -6,15 +6,14 @@ document.addEventListener("DOMContentLoaded", () => {
     addClientLink.addEventListener("click", () => {
         // Clear the content and load the "Add Client" form
         content.innerHTML = `
-            <h2>Add Client</h2>
             <form id="add-client-form">
                 <label for="clientName">Client Name:</label>
-                <input type="text" id="clientName" required>
+                <input type="text" id="clientName" class="input" required>
                 <br>
                 <label for="contactEmail">Contact Email:</label>
-                <input type="email" id="contactEmail" required>
+                <input type="email" id="contactEmail" class="input" required>
                 <br>
-                <button type="submit">Save</button>
+                <button type="submit" class="button" id="submitButton">Save</button>
             </form>
         `;
 
