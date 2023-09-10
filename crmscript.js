@@ -40,29 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }, 1000);
     });
 
-    fetch("https://your-api-endpoint.com/clients")
-    .then((response) => {
-        if (!response.ok) {
-            throw new Error("Network response was not ok");
-        }
-        return response.json(); // Parse the JSON response
-    })
-    .then((clients) => {
-        if (clients.length === 0) {
-            content.innerHTML += "<p>No clients found.</p>";
-        } else {const clientList = document.createElement("ul");
-        clients.forEach((client) => {
-            const listItem = document.createElement("li");
-            listItem.textContent = client.name; // Adjust as per your data structure
-            clientList.appendChild(listItem);
-        });
-        content.appendChild(clientList);
-    }
-})
-.catch((error) => {
-    console.error("Error fetching client list:", error);
-    content.innerHTML += "<p>An error occurred while fetching the client list.</p>";
-});
+    
 
 
 });
