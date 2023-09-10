@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Habit Tracker</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <style>
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <section class="section">
+    <div class="container">
+      <h1 class="title">Habit Tracker</h1>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <form id="habitForm">
+        <div class="field">
+          <label class="label">Habit Name</label>
+          <div class="control">
+            <input class="input" type="text" placeholder="Enter Habit Name" id="habitName">
+            <script src = "tester.js"></script>
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">Frequency</label>
+          <div class="control">
+            <div class="select">
+              <select id="habitFrequency">
+                <option value="daily">Daily</option>
+                <option value="weekly">Weekly</option>
+                <option value="monthly">Monthly</option>
+                <option value="yearly">Yearly</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="control">
+          <button class="button is-primary is-rounded" type="submit">Add Habit</button>
+
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <table class="table" id="habitTable">
+        <thead>
+          <tr>
+            <th>Habit Name</th>
+            <th>Frequency</th>
+            <th>Done?</th>
+            <th>Delete</th>
+          </tr>
+        </thead>
+        <tbody id="habitTableBody">
+          <!-- Habit data will be populated here -->
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <style>
+    .hidden {
+      display: none;
+    }
+  </style>
+
+  <script src="script.js"></script>
+</body>
+</html>
