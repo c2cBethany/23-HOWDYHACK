@@ -67,13 +67,15 @@
         </nav>
       </div>
 
-      <div id="habittrackerbox" class="container">
-      <h1 class="title">
+
+      <div id="box">
+      <div id="habittrackerbox">
+      <h1 class="title" id="titletracker">
         Habit Tracker
       </h1>
 
     <form id="habitForm">
-      <div class="field">
+      <div class="field" id="fieldyas">
         <label class="label">Habit Name</label>
         <div class="control">
           <input
@@ -84,7 +86,7 @@
           />
         </div>
       </div>
-      <div class="field">
+      <div class="field" id="fieldya">
         <label class="label">Frequency</label>
         <div class="control">
           <div class="select">
@@ -101,26 +103,28 @@
       <div class="control">
         <button
           onclick="habitInfo(); habitDisplay()"
-          class="button is-primary is-rounded"
-        >
+          class="button is-light"
+        id="buttonadd">
           Add Habit
         </button>
       </div>
     </form>
 
     <!-- Your table structure -->
-    <table class="table" id="habitTable">
-      <thead>
-        <tr>
-          <th>Habit Name</th>
-          <th>Frequency</th>
-          <th>Done?</th>
-        </tr>
-      </thead>
-      <tbody id="habitTableBody">
-      </tbody>
-    </table>
   </div>
+</div>
+
+<table class="table" id="habitTable">
+  <thead>
+    <tr>
+      <th>Habit Name</th>
+      <th>Frequency</th>
+      <th>Done?</th>
+    </tr>
+  </thead>
+  <tbody id="habitTableBody">
+  </tbody>
+</table>
     <script type="text/javascript" src="frontend.js"></script>
   </body>
 </html>

@@ -5,11 +5,10 @@
       /* Add this CSS to your existing styles.css */
 
 table {
-    width: 500px;
+    width: 60rem;
     border-collapse: collapse;
-    margin-top: 20px;
     line-height: 15px;
-    
+    margin-left: 15rem;
 }
 
 th, td {
@@ -48,14 +47,6 @@ input[type="checkbox"] {
     height: 40px;
 }
 
-.title{
-    margin-top:2rem;
-    margin-left:-5rem;
-    -webkit-text-fill-color: white;
-    z-index: 2;
-}
-
-
   .subtitle{
     -webkit-text-fill-color: white;
     margin-left:15rem;
@@ -82,5 +73,33 @@ html{
   }
 
   #habittrackerbox{
-    margin:2rem
+    margin:2rem;
+    text-align: center;
+    margin-top: 10rem;
+    background-color: #393838;
+    width: 60rem;
+    padding: 2rem;
+    margin-left: 15.1rem;
+    border-radius: 1rem;
+  }
+
+  #habitName{
+    width: 60rem;
+  }
+
+  #habitFrequency{
+    width: 60rem;
+  }
+
+  #buttonadd{
+    width: 56rem !important;
+    margin-top: 1rem;
+  }
+
+  #box{
+    align-content:center;
+  }
+
+  #titletracker{
+    color: #dddddd;
   }
